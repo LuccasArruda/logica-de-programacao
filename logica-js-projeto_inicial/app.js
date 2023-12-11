@@ -1,10 +1,11 @@
-alert('Boas vindas ao jogo do nÃºmero secreto!');
-let numeroSecreto = 6;
-let chute = prompt('Escolha um nÃºmero entre 0 e 10:');
+alert('Boas vindas ao jogo do número secreto!');
+let numeroSecreto = 9;
+console.log('Número Secreto: ' + numeroSecreto);
+let chute = prompt('Escolha um número entre 0 e 10:');
 
 if (numeroSecreto == chute) {
-    alert('ParabÃ©ns, VocÃª acertou! o nÃºmero secreto Ã© ' + numeroSecreto);
+    alert(`Parabéns, Você acertou! o número secreto ${numeroSecreto}`);
 }
 else{
-    alert('Que pena, esse nÃ£o era o nÃºmero secreto :(');
+    alert('Que pena, esse não era o número secreto :(');
 }
